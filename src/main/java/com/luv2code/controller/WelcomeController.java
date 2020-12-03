@@ -1,4 +1,4 @@
-package sk.itsovy.tomas;
+package com.luv2code.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,7 +11,7 @@ public class WelcomeController {
     @RequestMapping("")
     public String welcome(Model model) {
 
-        model.addAttribute("message", "Hello spring send from model data from Welcome controller ");
+        model.addAttribute("message", "Every asssssdfalo spring send from model data from Welcome controller ");
 
         return "welcome";
     }
